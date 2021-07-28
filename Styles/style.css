@@ -1,6 +1,6 @@
 .header-bg{
     background: #264653;
-    ;
+    
 }
 .btn-cbr-honda-global{
     background: #E76F51;
@@ -23,4 +23,14 @@ hr{
 }
 .grayscale-img{
     filter: grayscale(100%);
+}
+.btn-outline-custom{
+    border-radius: 5px;
+    padding:  10px 24px 10px 24px;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+.btn-outline-custom:hover{
+    background: #E76F51;
+    color: white;
 }
