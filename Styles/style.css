@@ -12,3 +12,15 @@
      color: #E0E0E0;
     
 }
+.text-color-custom{
+    color:#E76F51;
+}
+hr{
+   
+    border: 1px solid #E76F51;
+    width: 59px;
+    margin: 0 auto;    
+}
+.grayscale-img{
+    filter: grayscale(100%);
+}
