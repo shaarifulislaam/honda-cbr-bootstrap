@@ -1,6 +1,6 @@
-
+/* costomize css */
 .header-bg{
-    background: #264653;
+    background: #264653; 
     
 }
 .btn-cbr-honda-global{
@@ -17,14 +17,15 @@
     color:#E76F51;
 }
 hr{
-   
     border: 1px solid #E76F51;
     width: 59px;
     margin: 0 auto;    
 }
+/* image gray scale */
 .grayscale-img{
     filter: grayscale(100%);
 }
+/* button */
 .btn-outline-custom{
     border-radius: 5px;
     padding:  10px 24px 10px 24px;
@@ -34,4 +35,16 @@ hr{
 .btn-outline-custom:hover{
     background: #E76F51;
     color: white;
+}
+/* footer */
+.footer-text {
+    list-style: none;
+    display: flex;
+    padding-left: 5px;
+}
+.footer-text li{
+    padding: 0 10px;
+}
+.footer-text li a{
+    text-decoration: none;
 }
