@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="Styles/style.css">
     <!-- font awesome link -->
     <script src="https://kit.fontawesome.com/fc0902fe19.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Header start -->
@@ -27,13 +28,13 @@
                     <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item mx-lg-3">
-                    <a class="nav-link active text-white" href="#">Shop</a>
+                    <a class="nav-link active text-white" href="#shop">Shop</a>
                   </li>
                   <li class="nav-item mx-lg-3">
-                    <a class="nav-link active text-white" href="#">News</a>
+                    <a class="nav-link active text-white" href="#news">News</a>
                   </li>
                   <li class="nav-item mx-lg-3">
-                    <a class="nav-link active text-white" href="#">Contact</a>
+                    <a class="nav-link active text-white" href="#contact">Contact</a>
                   </li>
                 </ul>
                  <div class="ms-lg-5 ">
@@ -78,11 +79,11 @@
     <!-- Header end -->
 
 
-    
+
     <!-- Main start -->
     <main>
         <!-- feature bikes -->
-        <section class="container my-5">
+        <section class="container my-5" id="shop">
            <div class="text-center my-4">
             <h1>Fetured Bikes 2021</h1>
             <p class="text-color-custom">Best bike collection</p>
@@ -109,7 +110,7 @@
     </main>
 
     <!-- Latest News -->
-    <section class="container my-5">
+    <section class="container my-5" id="news">
         <h1 class="text-center my-5">Latest News</h1>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col shadow-sm rounded-3">
@@ -120,7 +121,7 @@
                   <p class="card-text">XDiavel, the Ducati cruiser that combines the best of both worlds, is renewed, still remaining true to its philosophy. The new sports version, the Black Star.</p>
                 </div>
                 <div class="border-0">
-                    <button class="btn btn-outline-custom " >Read More</button>
+                    <button class="btn btn-outline-custom" >Read More</button>
                 </div>
               </div>
             </div>
@@ -183,8 +184,8 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-            <h6 class="text-primary text-center mb-3">Regina Miles</h6>
-            <h6 class="text-center">Banker</h6>
+            <h6 class="text-primary text-center mb-3">Anti Silva</h6>
+            <h6 class="text-center">Doctor</h6>
                 </div>
               </div>
             </div>
@@ -200,8 +201,8 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-            <h6 class="text-primary text-center mb-3">Regina Miles</h6>
-            <h6 class="text-center">Banker</h6>
+            <h6 class="text-primary text-center mb-3">Angel di Adria</h6>
+            <h6 class="text-center">Lecturer</h6>
                 </div>
               </div>
             </div>
@@ -212,9 +213,9 @@
             <h1 class="text-center my-5">Frequently  <span class="text-color-custom d-block d-lg-inline"><span class="text-dark">Asked</span> Question</span></h1>
             <div class="row mx-3">
                 <div class="col-lg-6 col-md-12 col-12 my-5">
-                    <img class="img-fluid" width="432" height="423" src="images/faq.png" alt="">
+                    <img class="img-fluid" src="images/faq.png" alt="">
                 </div>
-                <div class="col-lg-6 col-md-12 col-12 mt-5 mb-0">
+                <div class="col-lg-6 col-md-12 col-12 mt-5 my-auto p-lg-5 mb-0">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -311,7 +312,7 @@
     <!-- footer Start -->
    
     <!-- contact us -->
-    <section class="container my-5">
+    <section class="container my-5" id="contact">
       <h1 class="text-center my-5 text-uppercase">Contact Us</h1>
       <div class="row">
         <div class="col-lg-7 col-md-12 col-12">
@@ -352,7 +353,7 @@
    
     <footer class="bg-dark container-fluid">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row align-items-center">
             <div class="col-lg-10 col-md-8 col-12 my-5">
                 <ul class="footer-text">
                     <li><a class="text-white" href="#">Download Now</a></li>
@@ -361,7 +362,6 @@
                 <ul class="footer-text">
                   <li> <a class=" text-white" href="#">About</a></li>
                   <li><a class="text-white" href="#">Features</a></li>
-                  <li><a class="text-white " href="#">Pricing</a></li>
                   <li> <a class=" text-white" href="#">Careers</a></li>
                   <li><a class="text-white" href="#">Privacy Policy</a></li>
               </ul>
@@ -370,11 +370,11 @@
                 </div>
             </div>
          
-            <div class="col-lg-2 col-12 col-md-4 my-5">
-              <h3 class="text-white my-3 order-1 order-lg-2 order-md-2">Get the App</h3>
-              <a href="#"><img class="my-3 " src="images/App Store Badge.png" alt=""></a>
+            <div class="col-lg-2 col-12 col-md-4  my-5">
+              <h4 class="text-white my-3 order-1 order-lg-2 order-md-2">Get the App</h4>
+              <a target="_blank" href="https://www.apple.com/app-store/"><img class="my-3 " src="images/App Store Badge.png" alt=""></a>
               <br>
-              <a href="#"><img src="images/Google Play Badge.png" alt=""></a>
+              <a target="_blank" href="https://play.google.com/store/apps"><img src="images/Google Play Badge.png" alt=""></a>
             </div>
         </div>
     </div>
